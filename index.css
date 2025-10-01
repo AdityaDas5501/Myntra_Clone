@@ -36,6 +36,7 @@ header{
     padding: 28px 0;
     margin: 7.5px 15px 7.5px 15px;
     border-bottom: 4px solid white;
+    white-space: nowrap;
 }
 .red_bar:hover{
     border-bottom: 4px solid #ee5f73;
@@ -82,6 +83,7 @@ header{
     color: #282c3f;
     padding: 8px 10px 10px;
     border-radius: 4px 0 0 4px;
+    margin-left: 10px;
 }
 .action_bar{
     display: flex;
