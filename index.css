@@ -69,6 +69,7 @@ header{
     border: none;
     color: #696e79;
     height: 40px;
+    width: 0%;
     flex-grow: 1;
     background-color: #f5f5f6;
     padding: 8px 10px 10px;
