@@ -37,8 +37,14 @@ header{
     margin: 7.5px 15px 7.5px 15px;
     border-bottom: 4px solid white;
 }
-.nav_bar a:hover{
+.red_bar:hover{
     border-bottom: 4px solid #ee5f73;
+}
+.yellow_bar:hover{
+    border-bottom: 4px solid #f2c210;
+}
+.green_bar:hover{
+    border-bottom: 4px solid #0db7af;
 }
 .nav_bar a sup{
     color: #ff3f6c;
