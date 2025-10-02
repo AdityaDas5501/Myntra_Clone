@@ -12,15 +12,8 @@ The project was created as a practice exercise to strengthen my understanding of
 
 ---
 
-## ⚠️ Current Challenges
-- The design works well on **desktop screens** but is **not yet optimized for mobile devices** 📱  
-- Responsiveness and alignment across different screen sizes are on my **to-do list**  
-
----
-
 ## 📌 Future Plans
 - Add **JavaScript functionality** (rolling images and drop-down menus)
-- Improve **mobile responsiveness** for seamless usage across devices  
 - Keep refining the design for a polished experience  
 
 ---
