@@ -132,10 +132,13 @@ header{
 }
 
 /*Main Section*/
+main{
+    margin: 0 50px;
+}
 .banner_image{
     width: 100%;
     min-width: 1018px;
-    margin: 40px 0;
+    margin: 23px 0;
 }
 .category_heading{
     text-transform: uppercase;
@@ -149,7 +152,6 @@ header{
 .category_items{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 24px;
 }
 .category_images{
     width: 243px;
@@ -307,11 +309,17 @@ header{
     }
 
     /* Main Section */
+    main{
+        margin: 0;
+    }
     .banner_image{
         width: 100%;
         min-width: auto;
         margin-top: 126.5px;
         margin-bottom: 0;
+    }
+    .category_items{
+        margin-left: 24px;
     }
     .category_images{
         width: 157px;
