@@ -23,14 +23,15 @@ header{
     height: 36px;
 }
 .logo_container{
-    margin-left: 4%;
+    margin-top: 8px;
+    margin-left: 3%;
 }
 .action_bar{
     margin-right: 4%;
 }
 .nav_bar{
     display: flex;
-    min-width: 500px;
+    min-width: 540px;
     justify-content: space-between;
 }
 .nav_bar a{
@@ -40,10 +41,12 @@ header{
     color: #282c3f;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 28px 0;
-    margin: 7.5px 15px 7.5px 15px;
+    padding: 26px 17px;
+    margin: 7.5px 0;
     border-bottom: 4px solid white;
     white-space: nowrap;
+    position: relative;
+    top: 2px;
 }
 .red_bar:hover{
     border-bottom: 4px solid #ee5f73;
@@ -98,6 +101,8 @@ header{
     margin-left: 10px;
 }
 .action_bar{
+    position: relative;
+    left: 24px;
     display: flex;
     min-width: 200px;
     justify-content: space-evenly;
