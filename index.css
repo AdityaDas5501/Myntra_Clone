@@ -134,6 +134,7 @@ header{
 /*Main Section*/
 .banner_image{
     width: 100%;
+    min-width: 1018px;
     margin: 40px 0;
 }
 .category_heading{
@@ -307,6 +308,7 @@ header{
     /* Main Section */
     .banner_image{
         width: 100%;
+        min-width: auto;
         margin-top: 126.5px;
         margin-bottom: 0;
     }
