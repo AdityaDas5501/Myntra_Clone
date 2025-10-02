@@ -153,6 +153,7 @@ header{
 }
 .category_images{
     width: 243px;
+    margin: 0 2px;
 }
 
 /*Footer Section*/
