@@ -233,6 +233,9 @@ main{
         display: inline-block;
         margin: 0 0 0 17px;
     }
+    .menu-icon{
+        color: black;
+    }
     .logo_container{
         display: inline-block;
         margin: 19px 16px 10px 9px;
