@@ -4,6 +4,9 @@
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
     box-sizing: border-box;
 }
+
+/* ----------Desktop Version---------- */
+/*Header Section*/
 header{
     background-color: white;    
     height: 80px;
@@ -11,6 +14,9 @@ header{
     align-items: center;
     justify-content: space-between;
     border-bottom: 0.5px solid #ebebeb;
+}
+.hamburger_menu{
+    display: none;
 }
 .logo{
     height: 36px;
@@ -110,7 +116,9 @@ header{
   'GRAD' 0,
   'opsz' 20
 }
-
+.mobile_searchbar{
+    display: none;
+}
 
 /*Main Section*/
 .banner_image{
@@ -129,6 +137,7 @@ header{
 .category_items{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 24px;
 }
 .category_images{
     width: 243px;
@@ -154,6 +163,7 @@ header{
 }
 .badge_container{
     display: flex;
+    flex-wrap: wrap;
 }
 .footer_column a{
     font-size: 15px;
@@ -191,4 +201,131 @@ header{
 .address p{
     font-size: 15px;
     color: #94969f;
+}
+
+/* ----------Mobile Version ----------*/
+
+@media screen and (max-width: 480px) {
+    /*Header Section*/
+    header{
+        width: 100vw;
+        height: 56px;
+        background-color: white;
+        position: fixed;
+        display: block;
+    }
+    .hamburger_menu{
+        display: inline-block;
+        margin: 0 0 0 17px;
+    }
+    .logo_container{
+        display: inline-block;
+        margin: 19px 16px 10px 9px;
+        box-sizing: content-box;
+    }
+    .logo{
+        width: 38px;
+        height: 21px;
+    }
+    .search_bar{
+        display: none;
+    }
+    .action_bar{
+        display: inline-block;
+        float: inline-end;
+        margin-right: -84px;
+    }
+    .action_container{
+        display: inline-block;
+        margin: 16px 16px 12px 0;
+        box-sizing: content-box;
+    }
+    .action_icon{
+        margin-left: -5px;
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 30
+    }
+    .action_name{
+        display: none;
+    }
+    .nav_bar{
+        display: none;
+    }
+
+    .mobile_searchbar{
+        background-color: white;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(148,150,159,.3);
+    }
+    .dummy_box{
+        border: 1px solid #e9e9eb;    
+        border-radius: 20px;
+        display: inline-flex;
+        width: 96vw;
+        height: 37.6px;
+        box-shadow: 0 3px 12px 0 rgba(148,150,159,.3);
+    }
+    .search_mat{
+        position: relative;
+        top: 7px;
+        left: 16px;
+    }
+    .dummy_box_text{
+        margin-left: 6px;
+        color: #686b77;
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 3px;
+    }
+    .dummy_box_icon{
+        color: #686b77;
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' 0,
+        'opsz' 20
+    }
+
+    /* Main Section */
+    .banner_image{
+        width: 100%;
+        margin-top: 126.5px;
+        margin-bottom: 0;
+    }
+    .category_images{
+        width: 157px;
+    }
+    .category_heading{
+        font-size: 1.2em;
+        margin: 26px 0 3px 30px;
+    }
+
+    /*Footer Section*/
+    .footer_container{
+        flex-direction: column;
+        padding-left: 16px;
+        height: 550px;
+    }
+    .footer_column h3{
+        font-size: 15px;
+    }
+    .footer_column{
+        display: inline-block;
+    }
+    .footer_column a{
+        margin-right: 31px;
+    }
+    .copyright{
+        margin: 0;
+    }
+    .address{
+        margin: 0;
+    }
 }
