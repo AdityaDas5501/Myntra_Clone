@@ -9,6 +9,7 @@ The project was created as a practice exercise to strengthen my understanding of
 - Complete webpage structure built from scratch  
 - Styling using **Flexbox, and Positioning**  
 - Replicated the **look & feel** of the Myntra website  
+- Responsive to mobile screen widths
 
 ---
 
