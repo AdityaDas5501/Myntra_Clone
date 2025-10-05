@@ -152,6 +152,7 @@ main{
 .category_items{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .category_images{
     width: 243px;
@@ -232,6 +233,10 @@ main{
     }
     .search_bar{
         flex-grow: 1;
+    }
+
+    .category_images{
+        width: 27vw;
     }
 }
 
