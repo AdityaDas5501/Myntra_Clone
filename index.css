@@ -339,13 +339,13 @@ main{
         margin-bottom: 0;
     }
     .category_items{
-        margin-left: 24px;
+        justify-content: center;
     }
     .category_images{
-        width: 157px;
+        width: 43vw;
     }
     .category_heading{
-        font-size: 1.2em;
+        font-size: 1.3em;
         margin: 26px 0 3px 30px;
     }
 
